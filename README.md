@@ -197,7 +197,7 @@ public class AdminServerApplication {
 - spring.boot.admin.client.url：要注册的Spring Boot Admin Server的URL。
 - management.endpoints.web.exposure.include：与Spring Boot 2一样，默认情况下，大多数actuator的端口都不会通过http公开，* 代表公开所有这些端点。对于生产环境，应该仔细选择要公开的端点。
 
-```
+```yaml
 spring:
   application:
     name: admin-client
@@ -216,12 +216,11 @@ management:
   endpoint:
     health:
       show-details: ALWAYS
-复制代码
 ```
 
 #### 启动类 AdminClientApplication
 
-```
+```java
 @SpringBootApplication
 public class AdminClientApplication {
 
@@ -230,7 +229,6 @@ public class AdminClientApplication {
     }
 
 }
-复制代码
 ```
 
 启动两个工程，在浏览器上输入localhost:8769 ，浏览器显示的界面如下：
@@ -242,8 +240,6 @@ public class AdminClientApplication {
 ![](https://raw.githubusercontent.com/gaohanghang/images/master/img20190611005822.png)
 
 点击wallboard，可以查看admin-client具体的信息，比如内存状态信息：
-
-<!-- more -->
 
 ![](https://raw.githubusercontent.com/gaohanghang/images/master/img20190611010142.png)
 
