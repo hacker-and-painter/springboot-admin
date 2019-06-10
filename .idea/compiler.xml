@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sc-eureka-server" />
+        <module name="admin-client" />
+        <module name="admin-server" />
+        <module name="sc-admin-server" />
+        <module name="sc-admin-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin-client" target="1.8" />
+      <module name="admin-server" target="1.8" />
+      <module name="sc-admin-client" target="1.8" />
+      <module name="sc-admin-server" target="1.8" />
+      <module name="sc-eureka-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin-client" options="-parameters" />
+      <module name="admin-server" options="-parameters" />
+      <module name="sc-admin-client" options="-parameters" />
+      <module name="sc-admin-server" options="-parameters" />
+      <module name="sc-eureka-server" options="-parameters" />
+    </option>
+  </component>
+</project>

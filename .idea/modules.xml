@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/admin-client/admin-client.iml" filepath="$PROJECT_DIR$/admin-client/admin-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin-server/admin-client.iml" filepath="$PROJECT_DIR$/admin-server/admin-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin-server/admin-server.iml" filepath="$PROJECT_DIR$/admin-server/admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin-server/admin-server.iml" filepath="$PROJECT_DIR$/admin-server/admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-admin-client/sc-admin-client.iml" filepath="$PROJECT_DIR$/sc-admin-client/sc-admin-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-admin-server/sc-admin-server.iml" filepath="$PROJECT_DIR$/sc-admin-server/sc-admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-eureka-server/sc-eureka-server.iml" filepath="$PROJECT_DIR$/sc-eureka-server/sc-eureka-server.iml" />
+    </modules>
+  </component>
+</project>
